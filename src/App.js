@@ -1,8 +1,17 @@
+import React from 'react';
+import {Switch, Route, Link} from 'react-router-dom';
+import {Layout, Typography, Space} from 'antd';
+import {Navbar} from './components';
+import './style.css';
 
-function App() {
+function App () {
   return (
     <div className="App">
-     <h1>Crypto App</h1>
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main" />
+      <div className="footer" />
     </div>
   );
 }
