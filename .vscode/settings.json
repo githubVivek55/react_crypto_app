@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.parser": "flow",
+    "prettier.trailingComma": "all",
+    "prettier.useFlowParser": true,
+    "prettier.useTabs": true,
+    "prettier.jsxBracketSameLine": true,
+    "php.validate.executablePath": "",
+    "prettier.eslintIntegration": true
+}
